@@ -1,12 +1,15 @@
 body{
     color: rgb(0, 0, 0);
     background-color: aqua;
-    text-align: center;
+    
     font-size: 50px;
+}
+h1{
+    text-align: center;
 }
 
 .explore-btn {
-    position: relative;
+    margin-left: 10%;
     top: 20px;
     left: 10px;
     font-size: 40px;
