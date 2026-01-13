@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <!-- Sets character encoding to support all languages -->
     <meta charset="UTF-8">
@@ -9,6 +10,14 @@
 
     <!-- Title shown on browser tab -->
     <title>HTML Basics</title>
+
+    <!-- Favicon link: sets the small icon shown in the browser tab,
+     bookmarks, and browser history.
+     href="favicon.png" points to the favicon image file (usually in the root folder).
+     type="image/x-icon" specifies the icon MIME type for browser compatibility. -->
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+
+    <meta name="description" content="Hello this description of this website">
 
     <!-- Links external CSS file -->
     <link rel="stylesheet" href="style.css">
@@ -62,12 +71,195 @@
     <!-- Normal link (opens in same tab) -->
     <a href="https://iajay006.in">Ajay Rana</a>
 
-    <br><br>
+
+    <!-- to break line  -->
+    <br>
 
     <!-- Link that opens in a new tab -->
-    <a href="https://iajay006.in" target="_blank" rel="noopener noreferrer">
+    <a href="https://iajay006.in" target="_blank">
         Ajay Rana
     </a>
 
+    <br>
+
+    <br>
+
+    <h1>Photo</h1>
+    <!-- Image 1: Displays an image from an external (Pinterest) URL. -->
+    <!-- If the image fails to load (no internet / blocked URL),the alt text "Image not found" will be shown -->
+    <img src="https://i.pinimg.com/736x/26/e4/61/26e46137aa4eddcd5f16867bd0a67b50.jpg" alt="Image not found">
+
+    <!-- Image 2: Image with a fixed height of 300px. -->
+    <!-- Width will adjust automatically to keep aspect ratio -->
+    <img height="600" src="https://i.pinimg.com/736x/7f/1a/05/7f1a05666cc318f003bcdc45f6e8e21c.jpg"
+        alt="Image not found">
+
+    <!-- Image 3: Image with a fixed width of 300px. -->
+    <!-- Height will adjust automatically to keep aspect ratio -->
+    <img width="500" src="https://i.pinimg.com/736x/de/d1/1d/ded11d8aaf8c5ed1af1ff23c9e45845b.jpg"
+        alt="Image not found">
+
+    <!-- Image 4: Image with both height and width defined. -->
+    <!-- Image may stretch or compress if aspect ratio does not match -->
+    <img height="500" width="600" src="https://i.pinimg.com/736x/5f/68/62/5f68621b6fc848e866c91cd0eae6d9f7.jpg"
+        alt="Image not found">
+
+
+    <!-- Image: Displays a local image file (img5.jpg) from the same project folder.
+     If the image is missing, the alt text will appear -->
+    <img src="img5.jpg" alt="Image not found">
+
+    <br> <!-- Line break for spacing -->
+
+    <!-- Heading for video section -->
+    <h1>Video</h1>
+
+    <!-- Video from an online source
+     width="800" sets video width
+     autoplay starts video automatically
+     loop repeats video
+     muted is required for autoplay in most browsers
+     controls shows play/pause controls -->
+    <video width="800" autoplay loop muted controls src="https://www.pexels.com/download/video/35615999/"></video>
+
+    <!-- Video from a local file (video2.mp4) -->
+    <video width="800" autoplay loop muted controls src="video2.mp4"></video>
+
+    <br> <!-- Line break -->
+
+    <!-- Heading for music section -->
+    <h1>Music</h1>
+
+    <!-- Audio player
+     autoplay starts audio automatically
+     controls shows audio controls
+     loop repeats the audio
+     muted starts audio muted -->
+    <audio autoplay controls loop muted src="song1.mp3"></audio>
+
+    <br> <!-- Line break -->
+
+    <!-- Heading for iframe section -->
+    <h1>Overview</h1>
+
+    <!-- iframe: Embeds another website inside this page
+     width and height define visible area
+     src is the website URL -->
+    <iframe width="800" height="1000" src="https://iajay006.in" frameborder="0"></iframe>
+
+    <br> <!-- Line break -->
+
+    <!-- Heading for form section -->
+    <h1>Form</h1>
+
+    <!-- Form start: collects user input -->
+    <form>
+
+        <!-- Text input (required field) -->
+        <input required type="text" placeholder="Enter your name">
+        <br>
+
+        <!-- Email input: validates email format -->
+        <input type="email" placeholder="Enter your email">
+        <br>
+
+        <!-- Password input: hides typed characters -->
+        <input type="password" placeholder="Enter the password">
+        <br>
+
+        <!-- Number input -->
+        <input type="number" placeholder="Enter your number">
+        <br>
+
+        <!-- Date picker -->
+        <input type="date">
+        <br>
+
+        <!-- Time picker -->
+        <input type="time">
+        <br>
+
+        <!-- Date and time picker -->
+        <input type="datetime-local">
+        <br>
+
+        <!-- Month picker -->
+        <input type="month">
+        <br>
+
+        <!-- Week picker -->
+        <input type="week">
+        <br>
+
+        <!-- Checkbox input -->
+        <input type="checkbox"> Are you ready?
+        <br>
+
+        <!-- Color picker -->
+        <input type="color">
+        <br>
+
+        <!-- Radio buttons: only one option can be selected
+         because all share the same name attribute -->
+        <input name="grnder" id="male" type="radio">
+        <label for="male">Male</label>
+
+        <input name="grnder" id="female" type="radio">
+        <label for="female">Female</label>
+
+        <input name="grnder" id="other" type="radio">
+        <label for="other">Other</label>
+
+        <br>
+
+        <!-- Checkbox with label using for/id -->
+        <input id="chiku" type="checkbox">
+        <label for="chiku">Are you ready?</label>
+
+        <br>
+
+        <!-- Submit button -->
+        <button>Submit</button>
+
+    </form>
+
+    <br>
+
+    <!-- Details element: collapsible content -->
+    <details>
+
+        <!-- Summary: clickable heading -->
+        <summary>all topis</summary>
+
+        <!-- List of topics -->
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JS</li>
+            <details>
+                <summary> Students Name</summary>
+                <ul>
+                    <li>ANJALI</li>
+                    <li>KOMAL</li>
+                    <li>NANDANI</li>
+                </ul>
+            </details>
+        </ul>
+
+        <!-- Paragraph inside details -->
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos, culpa!</p>
+
+        <details>
+            <summary> Students Name</summary>
+            <ul>
+                <li>ANJALI</li>
+                <li>KOMAL</li>
+                <li>NANDANI</li>
+            </ul>
+        </details>
+    </details>
+
+
 </body>
+
 </html>
