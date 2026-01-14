@@ -24,17 +24,19 @@
 </head>
 
 <body>
+    <div id="div1">
 
+    </div>
     <!-- Headings: h1 is biggest, h6 is smallest -->
     <h1>This is heading 1</h1>
-    <h2>This is heading 2</h2>
+    <h2 class="amity">This is heading 2</h2>
     <h3>This is heading 3</h3>
     <h4>This is heading 4</h4>
     <h5>This is heading 5</h5>
     <h6>This is heading 6</h6>
 
     <!-- Paragraph text -->
-    <p>I am Ajay Rana from Amity University</p>
+    <p class="amity">I am Ajay Rana from Amity University</p>
 
     <!-- Bold text -->
     <p>I am <b>Ajay Rana</b> from Amity University</p>
@@ -84,7 +86,7 @@
 
     <br>
 
-    <h1>Photo</h1>
+    <h1 id="photo">Photo</h1>
     <!-- Image 1: Displays an image from an external (Pinterest) URL. -->
     <!-- If the image fails to load (no internet / blocked URL),the alt text "Image not found" will be shown -->
     <img src="https://i.pinimg.com/736x/26/e4/61/26e46137aa4eddcd5f16867bd0a67b50.jpg" alt="Image not found">
@@ -120,10 +122,14 @@
      loop repeats video
      muted is required for autoplay in most browsers
      controls shows play/pause controls -->
-    <video width="800" autoplay loop muted controls src="https://www.pexels.com/download/video/35615999/"></video>
+
+    <!-- use "atoplay" attributes to autoply music video as well now i am not adding -->
+
+
+    <video width="800" loop muted controls src="https://www.pexels.com/download/video/35615999/"></video>
 
     <!-- Video from a local file (video2.mp4) -->
-    <video width="800" autoplay loop muted controls src="video2.mp4"></video>
+    <video width="800" loop muted controls src="video2.mp4"></video>
 
     <br> <!-- Line break -->
 
@@ -135,7 +141,8 @@
      controls shows audio controls
      loop repeats the audio
      muted starts audio muted -->
-    <audio autoplay controls loop muted src="song1.mp3"></audio>
+
+    <audio controls loop muted src="song1.mp3"></audio>
 
     <br> <!-- Line break -->
 
@@ -258,6 +265,7 @@
             </ul>
         </details>
     </details>
+
 
 
 </body>
