@@ -1,19 +1,20 @@
 @font-face {
-    font-family:annabel;
+    font-family: annabel;
     src: url(./Fonts/Bannabel.ttf);
 }
 
 @font-face {
-    font-family:olivera;
+    font-family: olivera;
     src: url(./Fonts/BOlivera.ttf);
 }
 
 @font-face {
-    font-family:sophie;
+    font-family: sophie;
     src: url(./Fonts/BSophie.ttf);
 }
+
 @font-face {
-    font-family:beauty2;
+    font-family: beauty2;
     src: url(./Fonts/Beauty2.ttf);
 }
 
@@ -23,38 +24,142 @@
 }
 
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-html,body{
-    height:100%;
+
+html,
+body {
+    height: 100%;
     width: 100%;
 }
 
-#div1{
+#div0 {
+    height: 400px;
+    width: 400px;
+    background-color: rgb(51, 0, 255);
+}
+
+#div00 {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 255, 30);
+}
+
+
+#div1 {
     height: 500px;
     width: 300px;
+    /* background-color: pink; */
+    background: linear-gradient(red, pink, blue);
+}
+
+#div2 {
+    height: 500px;
+    width: 500px;
+    background: linear-gradient(to right bottom, red, pink, blue);
+}
+
+.div3 {
+    height: 500px;
+    width: 500px;
+    background: radial-gradient(yellow, orange, green);
+}
+
+#div4 {
+    height: 500px;
+    width: 500px;
+    background: conic-gradient(red, blue, yellow, pink, red);
+}
+
+#div5 {
+    height: 500px;
+    width: 500px;
     background-color: pink;
 }
 
-h1{
+#div6 {
+    height: 300px;
+    width: 300px;
+    background-color: red;
+}
+
+#outer {
+    height: 600px;
+    width: 500px;
+    background-color: lightcoral;
+}
+
+#inner {
+    height: 40%;
+    width: 50%;
+    background-color: darkmagenta;
+}
+
+#div7 {
+    width: 100%;
+    height: 100%;
+    background-image: url(https://i.pinimg.com/736x/84/45/be/8445be42a76e0641a603608a280d2a95.jpg);
+
+    /* cover or cotain image jaisa rahega waisa work karega, 
+    like image landscape ya potrait bhi reh sakta hai,   
+    overall all ye keh sakte hai cover - image ke kam length side ko cover karta hai and contain -image ke jyada side wala ko fit karta hai */
+
+    background-size: cover;
+    /* background-size: contain; */
+    background-position: center;
+
+
+}
+
+#div8{
+     width: 100%;
+    height: 100%;
+    background-image: url(https://i.pinimg.com/736x/84/45/be/8445be42a76e0641a603608a280d2a95.jpg);
+    background-size: contain;
+
+}
+
+#div9{
+     width: 100%;
+    height: 100%;
+    background-image: url(https://i.pinimg.com/736x/84/45/be/8445be42a76e0641a603608a280d2a95.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+}
+
+#div10 {
+    height: 400px;
+    width: 800px;
+    background-color: rgb(51, 0, 255);
+    border: 20px solid red;
+    border-radius: 50px;
+    margin: 100px;
+    padding: 50px;
+}
+
+h1 {
     color: rgb(255, 255, 255);
-    background-color: rgb(32, 45, 59);
+    background-color: rgb(70, 143, 222);
     font-size: 50px;
-    font-family:orbitron;
+    font-family: orbitron;
     font-weight: 550;
     /* font-style: italic; */
     text-align: center;
     /* text-transform: lowercase; */
     /* text-transform:uppercase; */
 
-} 
+}
 
-#photo{
+#photo {
     color: blue;
 }
-.amity{
+
+.amity {
     background-color: aqua;
 }
