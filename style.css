@@ -142,7 +142,54 @@ body {
     margin: 100px;
     padding: 50px;
 }
+#div12 {
+    height: 400px;
+    width: 800px;
+    background-color: rgb(51, 0, 255);
+    border: 20px solid red;
+    border-radius: 50px;
+    margin: 100px;
+    padding: 50px;
+}
 
+/* css for position: absolute; o wala div uper float karega */
+
+#car1{
+
+    height: 300px;
+    width: 400px;
+    background-color: lightblue ;
+
+}
+
+#car2{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    /* position: absolute; */
+    
+}
+
+
+#car3{
+    height: 500px;
+    width: 600px;
+    background-color: pink;
+    
+}
+#car4{
+    height: 200px;
+    width: 300px;
+    background-color: black;
+}
+
+
+
+#details{
+    border-left-color: lightpink;
+    height: 100%;
+    width: 100%;
+}
 h1 {
     color: rgb(255, 255, 255);
     background-color: rgb(70, 143, 222);

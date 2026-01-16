@@ -40,7 +40,16 @@
     <div id="div7"></div>
     <div id="div8"></div>
     <div id="div9"></div>
-    <div id="div10"><h1>AJAY RANA</h1></div>
+    <div id="div10">
+        <h1>AJAY RANA</h1>
+    </div>
+
+    <div id="car1"></div>
+    <div id="car2"></div>
+    <div id="car3">
+        <div id="car4"></div>
+    </div>
+
 
     <!-- Headings: h1 is biggest, h6 is smallest -->
     <h1>This is heading 1</h1>
@@ -77,13 +86,15 @@
         <li>Copy</li>
         <li>Pen</li>
     </ol>
-
+    <br>
     <!-- Unordered list (bullets) -->
     <ul>
         <li>Book</li>
         <li>Copy</li>
         <li>Pen</li>
     </ul>
+
+
 
     <!-- Normal link (opens in same tab) -->
     <a href="https://iajay006.in">Ajay Rana</a>
@@ -247,17 +258,30 @@
 
     <br>
 
-    <!-- Details element: collapsible content -->
-    <details>
+    <div id="details"><!-- Details element: collapsible content -->
+        <details>
 
-        <!-- Summary: clickable heading -->
-        <summary>all topis</summary>
+            <!-- Summary: clickable heading -->
+            <summary>all topis</summary>
 
-        <!-- List of topics -->
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JS</li>
+            <!-- List of topics -->
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JS</li>
+                <details>
+                    <summary> Students Name</summary>
+                    <ul>
+                        <li>ANJALI</li>
+                        <li>KOMAL</li>
+                        <li>NANDANI</li>
+                    </ul>
+                </details>
+            </ul>
+
+            <!-- Paragraph inside details -->
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos, culpa!</p>
+
             <details>
                 <summary> Students Name</summary>
                 <ul>
@@ -266,20 +290,8 @@
                     <li>NANDANI</li>
                 </ul>
             </details>
-        </ul>
-
-        <!-- Paragraph inside details -->
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos, culpa!</p>
-
-        <details>
-            <summary> Students Name</summary>
-            <ul>
-                <li>ANJALI</li>
-                <li>KOMAL</li>
-                <li>NANDANI</li>
-            </ul>
         </details>
-    </details>
+    </div>
 
 
 
