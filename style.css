@@ -36,14 +36,16 @@ body {
     width: 100%;
 }
 
-#main{
+#main {
     width: 100%;
     height: 100%;
 }
-#div_text{
+
+#div_text {
     width: 100%;
     height: 100%;
 }
+
 #div0 {
     height: 400px;
     width: 400px;
@@ -122,16 +124,16 @@ body {
 
 }
 
-#div8{
-     width: 100%;
+#div8 {
+    width: 100%;
     height: 100%;
     background-image: url(https://i.pinimg.com/736x/84/45/be/8445be42a76e0641a603608a280d2a95.jpg);
     background-size: contain;
 
 }
 
-#div9{
-     width: 100%;
+#div9 {
+    width: 100%;
     height: 100%;
     background-image: url(https://i.pinimg.com/736x/84/45/be/8445be42a76e0641a603608a280d2a95.jpg);
     background-size: contain;
@@ -150,6 +152,7 @@ body {
     margin: 100px;
     padding: 50px;
 }
+
 #div12 {
     height: 400px;
     width: 800px;
@@ -166,31 +169,32 @@ body {
 
 /* css for position: absolute; o wala div uper float karega */
 
-#car1{
+#car1 {
 
     height: 300px;
     width: 400px;
-    background-color: rgb(11, 19, 133) ;
+    background-color: rgb(11, 19, 133);
 
 }
 
-#car2{
+#car2 {
     height: 200px;
     width: 200px;
     background-color: red;
     position: absolute;
-    
+
 }
 
 
-#car3{
+#car3 {
     height: 500px;
     width: 600px;
     background-color: pink;
     font-size: 300px;
-    
+
 }
-#car4{
+
+#car4 {
     height: 2000px;
     width: 100%;
     background-color: lightblue;
@@ -202,13 +206,14 @@ body {
     background-color: red;
 
 }
-#car6{
+
+#car6 {
     height: 200px;
     width: 200px;
     background-color: rgb(135, 7, 255);
     position: absolute;
     margin-left: 50%;
-    
+
 }
 
 #car7 {
@@ -217,24 +222,90 @@ body {
     background-color: rgb(255, 5, 213);
 
 }
-#car8{
+
+#car8 {
     height: 200px;
     width: 200px;
     background-color: rgb(135, 7, 255);
     position: absolute;
     position: relative;
     margin-left: 50%;
-    
+
+}
+
+#rightbar {
+    width: 100;
+    height: 400px;
+    background-color: red;
+    position: fixed;
+    right: 0;
+    top: 50%;
+
+}
+
+
+#rightbar2 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(47, 0, 255);
+    /* position: fixed; */
+    position: absolute;
+    right: 0;
+    top: 50%;
+
+}
+
+
+#home1 {
+    width: 100%;
+    height: 1000px;
+    background-color: lightgreen;
+
+}
+
+#sticky {
+    position: sticky;
+    top: 0;
+    color: black;
+
+}
+
+#box {
+    height: 300px;
+    width: 500px;
+    background-color: lightpink;
+}
+
+
+#home2 {
+    width: 100%;
+    height: 1000px;
+    background-color: rgb(197, 236, 197);
+
+}
+
+#sticky1 {
+    color: rgb(0, 0, 0);
+
+}
+
+#box1 {
+    position: sticky;
+    top: 0;
+    height: 300px;
+    width: 500px;
+    background-color: rgb(143, 66, 78);
 }
 
 
 
-#details{
+#details {
     margin: 10%;
-    background-color: #c31e1e; 
+    background-color: #c31e1e;
     height: 100%;
     width: 100%;
 }
+
 h1 {
     color: rgb(255, 255, 255);
     background-color: rgb(70, 143, 222);
