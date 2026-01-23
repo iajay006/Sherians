@@ -306,6 +306,143 @@ body {
     width: 100%;
 }
 
+#div101 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(231, 255, 10);
+    display: flex;
+    align-items: center;
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+}
+
+#box101 {
+    height: 300px;
+    width: 300px;
+    background-color: #ff0000;
+}
+
+#box102 {
+    height: 300px;
+    width: 300px;
+    background-color: #48ff00;
+}
+
+#box103 {
+    height: 300px;
+    width: 300px;
+    background-color: #2f00ff;
+}
+
+#div201 {
+    width: 100%;
+    height: 100%;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+}
+
+#box201 {
+    height: 300px;
+    width: 300px;
+    background-color: #ff0000;
+}
+
+#box202 {
+    height: 300px;
+    width: 300px;
+    background-color: #48ff00;
+}
+
+#box203 {
+    height: 300px;
+    width: 300px;
+    background-color: #2f00ff;
+}
+
+#div301 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 225, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#box301 {
+    height: 300px;
+    width: 300px;
+    background-color: #ff0000;
+}
+
+#box302 {
+    height: 300px;
+    width: 300px;
+    background-color: #48ff00;
+}
+
+#box303 {
+    height: 300px;
+    width: 300px;
+    background-color: #352b66;
+}
+
+#div401 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(17, 0, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#box401 {
+    height: 300px;
+    width: 300px;
+    background-color: #ff0000;
+}
+
+#box402 {
+    height: 300px;
+    width: 300px;
+    background-color: #48ff00;
+}
+
+#box403 {
+    height: 300px;
+    width: 300px;
+    background-color: #10cc3f;
+}
+
+#div501 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(121, 21, 235);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#box501 {
+    height: 300px;
+    width: 300px;
+    background-color: #ff0000;
+}
+
+#box502 {
+    height: 300px;
+    width: 300px;
+    background-color: #48ff00;
+}
+
+#box503 {
+    height: 300px;
+    width: 300px;
+    background-color: #2f00ff;
+}
+
 h1 {
     color: rgb(255, 255, 255);
     background-color: rgb(70, 143, 222);
