@@ -300,7 +300,6 @@ body {
 
 
 #details {
-    margin: 10%;
     background-color: #c31e1e;
     height: 100%;
     width: 100%;
@@ -423,6 +422,15 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+}
+#navbar{
+    height: 70px;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.macnav{
+    color: black;
 }
 
 #box501 {
